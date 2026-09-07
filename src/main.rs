@@ -10,4 +10,7 @@ fn main() {
         "{}",
         kyu8::tasks::no_space("8 j 8   mBliB8g  imjB8B8  jl  B".to_string())
     );
+    println!("=============================================");
+    println!();
+    println!("{}", kyu8::tasks::multi_table(3));
 }
